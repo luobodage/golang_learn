@@ -1,11 +1,13 @@
 package main
 
 import (
-	real2 "first/retriever/real"
+	real2 "allCode/golang_learn/retriever/real"
 	"fmt"
 	"io"
 	"os"
 )
+
+// 迁移完成
 
 type Retriever interface {
 	Get(url string) string
